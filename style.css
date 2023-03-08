@@ -1,3 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
+    background-color: #151515;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: #242026;
+    box-shadow: 0 15px 25px rgb(237, 17, 134);
+    border-radius: 10px;
+}
+
+.loginBox h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 31px;
+}
+
+
+.loginBox .userBox input{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(244, 243, 243);
+    margin-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.userBox{
+    color: #fff;
+}
+
+.loginBox .userBox input:focus ~
+label,
+.loginBox .userBox input:valid ~ 
+label{
+    top: -85px;
+    left: 0px;
+    color: rgb(237, 17, 134);
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.buttonForm{
+    margin-top: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgb(251, 247, 247);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.buttonForm:hover{
+    color: rgb(237, 35, 170);
+    transition: 0.4s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.registrer{
+    color: rgb(237, 35, 170);
+}
+
+.registro{
+    color: #fff;
+}
+.registro:hover{
+    color: rgb(237, 35, 170);
+    transition: 0.4s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#submit{
+    padding: 10px 20px;
+    color: #ffffff;
 }
