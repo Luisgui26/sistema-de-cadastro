@@ -34,7 +34,7 @@ body {
     position: relative;
     width: 100%;
     padding: 10px 0;
-    font-size: 24px;
+    font-size: 18px;
     color: rgb(244, 243, 243);
     margin-bottom: 1px solid #fff;
     outline: none;
@@ -43,7 +43,7 @@ body {
 }
 
 .userBox{
-    color: #fff;
+    color: #e2dddd;
 }
 
 .loginBox .userBox input:focus ~
